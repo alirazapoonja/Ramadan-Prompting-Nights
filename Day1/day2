@@ -1,0 +1,8 @@
+Goal: Create nextPrayerIndex(mins, times) to return index of next prayer.
+
+Constraints: times sorted ascending. Loop once. Return first i where times[i] > mins; else return 0.
+
+Edge Cases: Empty array → 0. After last prayer → 0. Exact match → next index.
+
+Output Format: Integer index. Example: nextPrayerIndex(700,[300,600,900,1100]) → 2.
+
